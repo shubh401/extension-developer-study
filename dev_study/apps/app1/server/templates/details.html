@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<style>
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px auto;
+        max-width: 1200px;
+    }
+
+    .product-section,
+    .order-section {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .product-section {
+        border-right: 1px solid #ccc;
+    }
+
+    .order-section form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .order-section form label {
+        margin-top: 10px;
+    }
+
+    .order-section form input,
+    .order-section form select {
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .order-section form .btn {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #007bff;
+        border: none;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .order-section form .btn:hover {
+        background-color: #0056b3;
+    }
+
+    .error {
+        color: red;
+        font-size: 0.9em;
+    }
+</style>
+
+<script src="/static/js/validate.js" nonce="{{ nonce }}"></script>
+
+<div class="container">
+    <div class="product-section">
+        <h2>{{ product.title }}</h2>
+        <p><strong>Author:</strong>{{ product.author }}</p>
+        <p><strong>Price:</strong>{{ product.price }}</p>
+        <p><strong>Final Price:</strong>{{ product.final_price }}</p>
+        <img src="static/img/items/covers/p{{ product.product_id }}.jpg" alt="{{ product.title }}"
+            style="max-width: 100%; height: auto;">
+    </div>
+    <div class="order-section">
+        <h2>Order Details</h2>
+        <form id="address-form" method="post" action="/payment?productId={{ product.product_id }}" onsubmit="return validateForm()">
+            <input type="text" id="address_line1" name="address_line1" placeholder="Address Line 1" required>
+            <input type="text" id="address_line2" placeholder="Address Line 2" name="address_line2">
+            <input type="text" id="city" name="city" placeholder="City" required>
+            <input type="text" id="state" name="state" placeholder="State" required>
+            <input type="text" id="country" name="country" placeholder="Country" required>
+            <input type="text" id="pincode" name="pincode" placeholder="Pincode" required>
+            <input type="number" id="quantity" name="quantity" placeholder="Number of Copies" min="1"
+                max="{{ product.available }}" required>
+
+            <label for="language">Language</label>
+            <select id="language" name="language" placeholder="Language" required>
+                <option value="English">English</option>
+                <option value="Mandarin">Mandarin</option>
+                <option value="Spanish">Spanish</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Arabic">Arabic</option>
+                <option value="Portuguese">Portuguese</option>
+                <option value="Bengali">Bengali</option>
+                <option value="Russian">Russian</option>
+                <option value="Japanese">Japanese</option>
+                <option value="Punjabi">Punjabi</option>
+            </select>
+
+            <button type="submit" class="btn btn-primary btn-sm">Continue to Payment</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

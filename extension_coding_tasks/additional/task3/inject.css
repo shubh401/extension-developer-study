@@ -1,0 +1,12 @@
+.fb-share-button {
+    display: inline-block;
+    margin-left: 10px;
+    width: auto;
+    align-items: right;
+}
+
+.actions {
+    display: flex;
+    position: static;
+    justify-content: space-between;
+}

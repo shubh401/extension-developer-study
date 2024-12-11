@@ -1,0 +1,21 @@
+Dear <USERNAME>,
+
+Thanks again for providing your preferred slot.
+
+We would like to continue with scheduling the interview for <PREFERRED SLOT>, as preferred by you.
+You can join the Zoom meeting here at - <MEETING URL>
+The interview structure includes three components: 
+	a.) Discussion on your experience on extension-development, 
+	b.) Extensions-related coding tasks, and 
+	c.) Discussion on specific issues/improvements in the extension ecosystem.
+
+For the technical tasks (b), we would ask you to share your screen with us throughout the tasks, and, thus, suggest you to hide/close sensitive applications before.
+
+Please provide your consent for the data collection during the interview here at - <REDACTED URL>
+Your Participation ID is: <PARTICIPATION ID>.
+
+Please write back here in case of any issues. See you then!
+
+Best regards,
+
+<SIGNATURE>

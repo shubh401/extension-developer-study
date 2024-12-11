@@ -1,0 +1,159 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<style>
+	#bannerCarousel .carousel-item img {
+		height: 400px;
+		object-fit: cover;
+	}
+
+	.carousel-caption {
+		background-color: rgba(0, 0, 0, 0.5);
+		padding: 1rem;
+		border-radius: 0.5rem;
+	}
+
+	.carousel-caption h5 {
+		color: #fff;
+		font-size: 1.5rem;
+		font-weight: bold;
+	}
+
+	.carousel-caption p {
+		color: #ddd;
+		font-size: 1rem;
+	}
+
+	.category-card {
+		border: none;
+		border-radius: 0.5rem;
+		box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+		transition: transform 0.3s ease-in-out;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
+		/* Ensures card takes full height of the column */
+	}
+
+	.category-card:hover {
+		transform: translateY(-5px);
+	}
+
+	.category-img {
+		border-top-left-radius: 0.5rem;
+		border-top-right-radius: 0.5rem;
+		width: 90%;
+		height: auto;
+		max-height: 250px;
+		object-fit: scale-down;
+	}
+
+	.category-body {
+		padding: 15px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.category-title {
+		font-size: 1.4rem;
+		font-weight: bold;
+	}
+
+	.category-description {
+		color: #6c757d;
+		margin: 10px 0;
+	}
+
+	.header-title {
+        font-weight: 700;
+        font-size: 2.5rem;
+        color: #232f3e;
+    }
+    .content-text {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-top: 1rem;
+    }
+    .highlight {
+        font-weight: bold;
+        color: #007bff;
+    }
+</style>
+
+<div id="bannerCarousel" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+		{% for banner in banners %}
+		<li data-target="#bannerCarousel" data-slide-to="{{ forloop.counter0 }}" {% if forloop.first %}class="active" {% endif %}></li>
+		{% endfor %}
+	</ol>
+	<div class="carousel-inner">
+		{% for banner in banners %}
+		<div class="carousel-item {% if forloop.first %}active{% endif %}">
+			<img src="{{ banner.image_url }}" class="d-block w-100" alt="{{ banner.title }}">
+			<div class="carousel-caption d-none d-md-block">
+				<h5>{{ banner.title }}</h5>
+				<p>{{ banner.description }}</p>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+	<a class="carousel-control-prev" href="#bannerCarousel" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#bannerCarousel" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+</div>
+
+<div class="container mt-2">
+	<div class="card-body p-5">
+		<center>
+			<h1 class="header-title">Affordable Knowledge: John Doe's Book Initiative</h1>
+		</center>
+		<p class="content-text">
+			Meet <span class="highlight">John Doe</span>, a distinguished scientific researcher whose groundbreaking work has shaped the future of numerous fields. Now, John is channeling his passion for knowledge and societal betterment into a new venture: providing avid readers with access to great books at half the original cost.
+			<br><br>
+			Through this initiative, John aims to foster a love for reading, promote lifelong learning, and create a more informed and enlightened society. Join <span class="highlight">John Doe</span> on this incredible journey of discovery and empowerment, where the world of books opens doors to infinite possibilities.
+		</p>
+	</div>
+</div>
+
+
+<div class="container mt-5" id="product-list">
+	<div class="row">
+		{% if categories %}
+		<div class="row">
+			{% for category in categories %}
+			<div class="col-md-4 mb-4">
+				<div class="category-card h-100">
+					<img src="{{ category.cover }}" class="category-img" alt="{{ category.name }}">
+					<div class="category-body">
+						<h5 class="category-title">{{ category.name }}</h5>
+						<a href="/products?category={{ category.category_id }}"
+							class="btn btn-primary btn-sm">Explore</a>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+			<div class="col-md-4 mb-4">
+				<div class="category-card h-100">
+					<img src="static/img/items/c0.png" class="category-img" alt="All Products">
+					<div class="category-body">
+						<h5 class="category-title">All Books</h5>
+						<a href="/products" class="btn btn-primary btn-sm">Explore</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		{% else %}
+		<h1 class="font-weight-light">Stay tuned! We are going to launch soon!</h1>
+		{% endif %}
+
+	</div>
+</div>
+{% endblock %}

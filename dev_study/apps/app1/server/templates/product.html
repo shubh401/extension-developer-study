@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<style>
+    .container .mt-5{
+        width: 100%;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+</style>
+
+<div class="container mt-5" id="product-list">
+    <div class="row">
+        {% if products %}
+        {% for product in products %}
+        <div id="p{{ product.product_id}}" class="col-md-3 mb-4">
+            <div class="card h-100">
+                <img src="static/img/items/covers/p{{ product.product_id }}.jpg"
+                    style='height: 100%; width: 100%; object-fit: contain' class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="title-wrapper">
+                        <h5 class="card-title">{{ product.title }}</h5>
+                    </div>
+                    <p class="card-text">{{ product.author }}</p>
+                    <p class="card-text"><s class="strike">${{ product.price }}</s>&nbsp;&nbsp;<b>${{ product.final_price }}</b></p>
+
+                    <div id="{{ product.product_id }}" class="actions">
+                        <a href="/order?productId={{ product.product_id }}" id="order" class="buy-btn btn btn-primary btn-sm">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        {% else %}
+        <h1 class="font-weight-light">No Products available ...</h1>
+        {% endif %}
+    </div>
+</div>
+
+{% endblock %}

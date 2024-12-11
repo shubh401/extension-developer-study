@@ -1,0 +1,16 @@
+﻿bind = '0.0.0.0:8001'
+workers = 1
+worker_class = 'gthread'
+preload = True
+reload = True
+daemon = False
+threads = 4
+timeout = 120
+keepalive = 5
+pidfile = './logs/gunicorn_server_1.pid'
+errorlog  = f'./logs/app1_gc.log'
+loglevel = 'info'
+capture_output = True
+proc_name = 'gunicorn_server_1'
+max_requests = 0
+wsgi_app = "app1.wsgi"

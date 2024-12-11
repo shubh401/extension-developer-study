@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<style>
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px auto;
+        max-width: 1200px;
+    }
+    .product-section, .payment-section {
+        flex: 1;
+        padding: 20px;
+    }
+    .product-section {
+        border-right: 1px solid #ccc;
+    }
+    .payment-section form {
+        display: flex;
+        flex-direction: column;
+    }
+    .payment-section form label {
+        margin-top: 10px;
+    }
+    .payment-section form input {
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .payment-section form .btn {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #007bff;
+        border: none;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+    }
+    .payment-section form .btn:hover {
+        background-color: #0056b3;
+    }
+    .address-details {
+        margin-top: 20px;
+    }
+    .address-details p {
+        margin: 5px 0;
+    }
+    .error {
+        color: red;
+        font-size: 0.9em;
+    }
+</style>
+
+<script src="/static/js/payment.js" nonce="{{ nonce }}"></script>
+<div class="container">
+    <div class="product-section">
+        <h2>{{ product.title }}</h2>
+        <p><strong>Author:</strong> {{ product.author }}</p>
+        <p><strong>Price:</strong> ${{ product.price }}</p>
+        <p><strong>Final Price:</strong> ${{ product.final_price }}</p>
+        <img src="static/img/items/covers/p{{ product.product_id }}.jpg" alt="{{ product.title }}" style="max-width: 100%; height: auto;">
+        <div class="address-details">
+            <h3>Shipping Address</h3>
+            <p><strong>Copies:</strong> {{ address.quantity }}</p>
+            <p><strong>Language:</strong> {{ address.language }}</p>
+            <p><strong>Address Line 1:</strong> {{ address.address_line1 }}</p>
+            <p><strong>Address Line 2:</strong> {{ address.address_line2 }}</p>
+            <p><strong>City:</strong> {{ address.city }}</p>
+            <p><strong>State:</strong> {{ address.state }}</p>
+            <p><strong>Pincode:</strong> {{ address.pincode }}</p>
+        </div>
+    </div>
+    <div class="payment-section">
+        <h2>Payment Details</h2>
+        <form method="post" action="/buy" onsubmit="return validateForm()">
+            {% csrf_token %}
+            <input type="text" id="card_number" placeholder="Card Number" name="card_number" required>
+
+            <input type="text" id="card_holder_name" placeholder="Card Holder Name" name="card_holder_name" required>
+
+            <input type="text" id="expiry_date" placeholder="Expiry Date (MM/YY)" name="expiry_date" required>
+
+            <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+
+            <button type="submit" class="btn btn-primary btn-sm">Place Order</button>
+        </form>
+    </div>
+</div>
+
+
+{% endblock %}

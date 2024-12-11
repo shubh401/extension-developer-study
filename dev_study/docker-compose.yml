@@ -1,0 +1,25 @@
+services:
+  django_app1:
+    build:
+      context: ./apps/app1
+      dockerfile: Dockerfile
+    command: gunicorn --config=gunicorn.conf_1.py --bind 0.0.0.0:8001
+    ports:
+      - 8001:8001
+    volumes:
+      - ./apps/app1:/usr/src/apps/app1
+
+  nginx:
+    build: ./nginx
+    ports:
+    - 80:80
+    - 443:443
+    volumes:
+      - ./cert:/etc/letsencrypt:rw
+      - ./nginx_logs:/var/logs:rw
+    depends_on:
+      - django_app1
+
+networks:
+  mynetwork:
+    driver: bridge

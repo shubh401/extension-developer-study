@@ -1,0 +1,7 @@
+[
+    {"name": "Science and Technology", "cover": "static/img/items/c1.png"},
+    {"name": "Business and Economics", "cover": "static/img/items/c2.png"},
+    {"name": "Mathematics", "cover": "static/img/items/c3.png"},
+    {"name": "Health and Medicine", "cover": "static/img/items/c4.png"},
+    {"name": "Social Sciences and Humanities", "cover": "static/img/items/c5.png"}
+]

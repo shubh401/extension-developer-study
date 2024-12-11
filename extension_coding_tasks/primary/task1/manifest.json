@@ -1,0 +1,20 @@
+{
+    "name": "Task 1 - Save Address",
+    "version": "1.0",
+    "description": "Save Address for later & Autofill",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content_script.js"
+            ],
+            "run_at": "document_start",
+            "all_frames": true
+        }
+    ],
+    "permissions": ["contextMenus", "scripting"],
+    "host_permissions": [],
+    "manifest_version": 3
+}

@@ -1,0 +1,15 @@
+Dear <USERNAME>,
+
+Thank you very much for signing up for our interview study. We have reviewed the survey responses and are now reaching out to selected participants for interviews to gain deeper insights. We are pleased to inform you that you have been selected!
+
+We are looking forward to hearing all about your experiences and insights regarding the ecosystem.
+
+As mentioned in our previous email, the interview will last approximately around 120 minutes. Please provide your preferred time slots for the interview by visiting <REDACTED URL>. We kindly request that you provide at least three preferred time slots that work best for you (marked as Pref1, Pref2, Pref3, etc.). If needed, we are happy to accommodate your timezone and preferred time slots.
+
+Once we have confirmed the time slot for the study, we will share the meeting details and links with you.
+
+We look forward to hearing from you soon!
+
+Best regards
+
+<SIGNATURE>
