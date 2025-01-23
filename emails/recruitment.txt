@@ -4,7 +4,7 @@ Dear <USERNAME>,
 
 We recently came across <N> of your browser extensions (<EXTENSION 1>, <EXTENSION 2>, etc...) hosted on the <EXTENSION STORE>. As part of our study, we would like to learn more about your overall experiences when developing and maintaining browser extensions, in general.
 
-The study consist of two parts: We first invite interested participants to fill up a short-screening questionnaire (approximately 2 – 3 minutes). We will, then, shortlist from the set of interested candidates and invite them for direct interview. The direct interview will be conducted in English and take approximately 90 – 120 minutes and we will compensate your participation in this study with an Amazon Voucher worth of <COMPENSATION AMOUNT> (or its equivalent) once the interview is completed.
+The study consist of two parts: We first invite interested participants to fill up a short-screening questionnaire (approximately 2 – 3 minutes). We will, then, shortlist from the set of interested candidates and invite them for direct interview. The direct interview will be conducted in English and take approximately 120 minutes and we will compensate your participation in this study with an Amazon Voucher worth of <COMPENSATION AMOUNT> (or its equivalent) once the interview is completed.
 
 We would, thus, ask you or any of your colleagues associated with the design, development or maintenance of your extensions to participate in our study, by filling the screening questionnaire here at: <REDACTED URL>.
 

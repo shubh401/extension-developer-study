@@ -1,2 +1,1 @@
-# extension-developer-study
-Digital Alchemists: Studying the Security &amp; Privacy Mindset of Browser Extension Developers
+## _I have no idea how to make it safer_: Studying Security and Privacy Mindsets of Browser Extension Developers
