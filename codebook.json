@@ -1,0 +1,608 @@
+{
+    "": {
+        "Considerations/Practices": [
+            "Code Cleanup",
+            "Code Quality",
+            "Code Formatting/Linting",
+            "Development Practices",
+            "Important Considerations"
+        ],
+        "Coding-Tasks-Related": {
+            "CT1-Related": [
+                "Coding Task 1",
+                "IndexedDB",
+                "localStorage",
+                "Task 1 - Understanding of the Issue",
+                "Task 1 Alternatives",
+                "Task 1 Description"
+            ],
+            "CT2-Related": [
+                "Cannot Bypass 'Cross Website Headers'!",
+                "Coding Task 2",
+                "Existing Extensions that drops XFO",
+                "Task 2 - Understanding of the Issue",
+                "Task 2 Alternatives",
+                "Task 2 Description"
+            ],
+            "CT3-Related": [
+                "Coding Task 3",
+                "Defining Extension CSP",
+                "Familiar with CSP",
+                "Familiarity with the DNR API",
+                "Task 3 - Understanding of the Issue",
+                "Task 3 Alternatives",
+                "Using webRequest is Hacky"
+            ],
+            "Non S&P-related Actions": [
+                "Cosmetic Code-level Changes",
+                "Files and Folder Structure",
+                "Non-S&P-related Improvement Suggestions",
+                "Typescript usage",
+                "UI/UX-based Changes"
+            ],
+            "Post-task Discussion": [
+                "Comfort with Rule-based header Modifications",
+                "Header Manipulation with MV2",
+                "Header Manipulation with MV3",
+                "Iframes are Notorious",
+                "Issues with the Existing Solution",
+                "Motivation for Task Solution",
+                "Post-Tasks Follow-Ups",
+                "Potential Alternative Solutions",
+                "Thoughts on Potential Alternate Solutions"
+            ],
+            "Potential S&P-related Actions": [
+                "API Permission Configuration",
+                "Developers' Contextual Question",
+                "Future-Proofing Solutions",
+                "Host Permissions Configuration",
+                "Important Task-related Considerations/Steps",
+                "Misconceptions",
+                "New Profile for Tasks",
+                "Over-permissions",
+                "Redundant all_frames",
+                "S&P-Improved Code",
+                "S&P-related Changes",
+                "Storage API Alternatives",
+                "use_dynamic_uri Knowledge"
+            ],
+            "Prompted/Unprompted Intervention": [
+                "Prompted Debugging",
+                "Prompted Explanation",
+                "Prompted Hint",
+                "Unprompted Debugging",
+                "Unprompted Explanation",
+                "Unprompted Hint"
+            ],
+            "Resources": [
+                "(Popular) Search Results",
+                "AI-assisted Code Generation",
+                "ChatGPT Assistance",
+                "ChatGPT Prompt",
+                "Popular Resources (Posts/Articles)",
+                "Search Keywords",
+                "Search Prompt",
+                "Unrelated Search Keywords"
+            ],
+            "": [
+                "AI Code Assistants",
+                "ChatGPT Answers/Suggestions",
+                "Coding Tasks",
+                "Console Errors",
+                "Debugging Solutions",
+                "Derived Requirements",
+                "Developers' High-level Queries",
+                "Development Starting Point",
+                "Familiarity with Test Website",
+                "Familiarity with the Coding Task",
+                "File Inspection: CSS",
+                "File Inspection: Manifest",
+                "File Inspection: Script",
+                "First Look at the Task Description",
+                "First view of the Test Application",
+                "Further Look at the Task Description",
+                "Getting things back on track",
+                "Important Notes",
+                "Inspecting Current State of Extensions",
+                "Loading Extension",
+                "Loading Other Extensions",
+                "Navigation to Test Application",
+                "Potential (Biased) Steps",
+                "Preliminary Idea",
+                "Programming Solution",
+                "Programming Strategy",
+                "Setup failure - Task Unrelated",
+                "Solution Works",
+                "Special Requirements/Assistance",
+                "Strategies/Decisions",
+                "Task Introduction",
+                "Task Logistics",
+                "Task Requirements",
+                "Technical Challenges/Issues",
+                "Technical Disgreements",
+                "Technical Requirements",
+                "Testing Baseline",
+                "Testing Hacks",
+                "Testing Solution",
+                "Understanding Existing Functionality",
+                "Understanding the Program-Flow"
+            ]
+        },
+        "Developer Background": {
+            "Professional": [
+                "Current Job Duration",
+                "Previous Job Experience",
+                "Primary Job Responsibilities",
+                "Primary Job Role",
+                "Profession Background"
+            ],
+            "Technical": [
+                "Firefox Student Ambassador",
+                "JavaScript Familiarity",
+                "Mobile Development Experience",
+                "Programming Background",
+                "React Applications",
+                "Technical Awareness",
+                "Technical Background",
+                "Technical Background: Hobbyist Coder",
+                "Technical Background: Mobile Developer",
+                "Technical Background: Software Developer",
+                "Technical Unawareness",
+                "Web Development Experience"
+            ],
+            "Educational": [
+                "Educational Background",
+                "Institutional Qualifications",
+                "Online Learnings",
+                "Self-education"
+            ],
+            "Extension Development": [
+                "First Extension",
+                "Similarity with Mobile App Development",
+                "Similarity with Web Development"
+            ],
+            "Additional": [
+                "Developers' Experience",
+                "Familiarity with Web Tools",
+                "Non-extension Projects/Works",
+                "Non-Tech Background/Information",
+                "Web-Tools Built"
+            ]
+        },
+        "Developers' Philosophy/Opinions": [
+            "Disagreements",
+            "Liabilities",
+            "Opinions",
+            "Philosophy",
+            "Principles",
+            "Open-Sourcing Benefits"
+        ],
+        "Developmental Patterns": [
+            "Development",
+            "Deployment",
+            "Anti-Patterns",
+            "Error-Handling",
+            "Future Plans",
+            "Meta-Strategies",
+            "Contextual Remarks"
+        ],
+        "Employer Details": [
+            "Size",
+            "Inception",
+            "Details",
+            "Worth",
+            "Mission"
+        ],
+        "Extension Development Experience": [
+            "Buggy Code",
+            "Current State of Extension",
+            "Development-related Issues/Challenges",
+            "Extension Development History",
+            "Extension Development is not difficult for me!",
+            "Extension Development Skillset",
+            "Familiarity with Extensions",
+            "Helped others in the community",
+            "Issues with Feature Requests/Bugs",
+            "Learning Curve",
+            "Not sure if I will do it again!",
+            "Recent/Current Extension"
+        ],
+        "Extension Development Frameworks": [
+            "Benefits of Development Frameworks",
+            "CRX JS-related Information",
+            "Extension Development Frameworks",
+            "Plasmo-related Information"
+        ],
+        "Extension Development Lifecycle": {
+            "Extension Tools": [
+                "CRX Viewer",
+                "Deployment Tools",
+                "Development Tools",
+                "Testing Method: Dynamic Testing",
+                "Testing Method: Manual Testing",
+                "Testing Method: Static Testing",
+                "Testing Method: Testing Procedure and Tools"
+            ],
+            "Requirements": [
+                "Accessibility Requirements",
+                "Business Requirements",
+                "Development Requirements",
+                "Project Requirements",
+                "Third-party Libraries",
+                "Third-party Services",
+                "UI Requirements",
+                "UI/UX and its Complexity"
+            ],
+            "Development Style": [
+                "Agile Development Strategy",
+                "Dynamic Code",
+                "Iterative Development",
+                "Large Scale Development",
+                "Personal Use Development",
+                "Shared Extension Development Styles with Others"
+            ],
+            "Distribution": [
+                "Anti-distribution Patterns",
+                "Common Distribution Practices",
+                "Cross-Platform Distribution Experience",
+                "Distribution Alternatives",
+                "Distribution Experience",
+                "Distribution Motivation",
+                "Distribution Patterns",
+                "Distribution-related Factors/Changes",
+                "Free Distribution",
+                "Thoughts and Experiences on Distribution"
+            ],
+            "Extension Team": [
+                "Collaborative Effort",
+                "Conflicts and Final Decisions",
+                "Development Team",
+                "Freelance Developers",
+                "Independent Contributors",
+                "Interest-based Contributions",
+                "Mid-sized Company",
+                "Mid-sized Teams",
+                "Multiple Contributors Involved!",
+                "Small group",
+                "Sole Maintainer",
+                "UI/UX Designer"
+            ],
+            "Maintenance": ["Maintenance is tricky!", "Maintenance Process"],
+            "": ["Development Style", "Generalizability of Development Processes"]
+        },
+        "Extension Development Purpose": [
+            "Built tools for Personal Use",
+            "Extension Description",
+            "Extension Purpose",
+            "Overall Product Description",
+            "Problem Statement",
+            "Solved Daily Browser Problems",
+            "Solved Daily Business Problems"
+        ],
+        "Extensions Developed": [
+            "Archived/Abandoned Extensions",
+            "Extension Lifetime",
+            "Featured Extension",
+            "Individual Extension Names",
+            "Other Developed Extensions",
+            "Unavailable Extension"
+        ],
+        "Extension Substitutes": [
+            "Arc Boost",
+            "Bookmarklets"
+        ],
+        "Generic Thoughts & Comments on Extensions": [
+            "Community Support",
+            "Comparison b/w Native Application and Extension Development",
+            "Extension Breakage",
+            "Extension Capabilities",
+            "Extension Features",
+            "Extensions are underutilized",
+            "Extensions' Selling Point",
+            "Extensions-as-a-Service",
+            "Not many people use extensions!",
+            "Pros of Browser Extensions",
+            "Use-cases for Extensions"
+        ],
+        "Installation-related Factors": [
+            "Installation Factors",
+            "Parameters to Install Extensions"
+        ],
+        "Information Resources": [
+            "Chrome Developers Documentation",
+            "Github Repo",
+            "Information Sources",
+            "MDN Docs",
+            "Official Documentation",
+            "Positive Impression on Official Documentation",
+            "Stack Overflow Posts"
+        ],
+        "Incentives": [
+            "Appreciation",
+            "Fame/Internet Presence",
+            "Marketing of Parent Company/Product",
+            "Monetary Incentives",
+            "No Profit",
+            "Personal Incentive",
+            "Popularity of Extension",
+            "Social Contribution"
+        ],
+        "Interview-related Comments": [
+            "Hesitant to write code",
+            "Interview-style-related Comments",
+            "Major effort and time required",
+            "Motivation for the Interview",
+            "Uncomfortable with coding!",
+            "Uncomfortable with Deployment"
+        ],
+        "Knowledge Type": [
+            "Accumulated Knowledge (KT2)",
+            "External Knowledge (KT3)",
+            "Inherent Knowledge (KT1)"
+        ],
+        "Motivation": [
+            "Build Consent Standards",
+            "Business Requirements",
+            "Common Problem",
+            "Community Service",
+            "Contribution to Mozilla Community",
+            "Feature Request",
+            "Feedback-driven Learning",
+            "Friends Asked",
+            "Fun",
+            "Hobby",
+            "Job Related",
+            "Learning Tech",
+            "Personal Interests",
+            "Personal Motivation",
+            "Personal Use",
+            "Techincal Requirements"
+        ],
+        "Monetization/Business Related": [
+            "Business Concerns",
+            "Business Condition",
+            "Business Idea with Extensions",
+            "Financial Constraints",
+            "Free vs Paid Users",
+            "Justified Use-cases for Monetization",
+            "Limited free licenses",
+            "Monetization Considerations",
+            "Monetization is Important!",
+            "Monetization Plans",
+            "NO WAY TO INCENTIVIZE EXTENSIONS!"
+        ],
+        "Metrics & User Analytics": [
+            "Extension Dashboard",
+            "Extension Userbase",
+            "Google Analytics in Extensions",
+            "Interested in overall extension user stats!",
+            "Personal User Metrics"
+        ],
+        "MV2/MV3-related Comments": [
+            "Major Transition Niggles",
+            "Minor Transition Niggles",
+            "MV2-related Comments",
+            "MV3 Technical Awareness",
+            "MV3-related Changes",
+            "MV3-related Comments",
+            "Negative Impression of MV3",
+            "Perception on MV3",
+            "Positive Impression of MV3",
+            "Transition Experience to MV3"
+        ],
+        "Perception on Ads & Ad-blockers": [
+            "(No) Ads in Extensions",
+            "Thoughts on Ad-Blockers"
+        ],
+        "Responsible Stakeholder": [
+            "Responsible Adult",
+            "Shared Role"
+        ],
+        "Platform-related": {
+            "Negative Thoughts": [
+                "Act of Dictatorship",
+                "Browser-agnostic Extension Standards",
+                "Google Does First, Ask Later",
+                "Extensions are more of an afterthought to browsers!",
+                "Extensions are not cash-cows for Browsers!",
+                "Issues with Multiple Stores",
+                "Lack of Platform-maintained Tools",
+                "Limitations in Firefox",
+                "Most extensions on the store are crap!",
+                "Negative Impression of Chrome Ecosystem",
+                "Negative Impression of Firefox Ecosystem",
+                "Platforms' Autocracy",
+                "Users are not notified of replies!",
+                "Webkit-related Comments"
+            ],
+            "Positive Thoughts": [
+                "No Platform-based Limitations",
+                "Positive Impression of Chrome Ecosystem"
+            ],
+            "Responsibilities/Expectations": [
+                "Developer Feedback",
+                "Expectations from the Browsers",
+                "Expectations from the Web Stores",
+                "Extension Community Manager",
+                "Extension Recommendation Process",
+                "Mozilla Extension Representative",
+                "Platform-related Comments",
+                "Platforms' Responsibility",
+                "Recommended Extensions",
+                "SEO on CWS",
+                "Store Liasons for Developers",
+                "Store Policies"
+            ],
+            "Roadblocks/Issues": [
+                "Developers' Concerns",
+                "Developers' Impression on Browser APIs",
+                "Extension Visibility to Users",
+                "Google-related Comments",
+                "Mozilla-related Comments",
+                "Platform Issues",
+                "Platform-based Differences"
+            ],
+            "Generic": [
+                "Different Web Stores for Publishing",
+                "Impressions on Web Stores",
+                "Inception of Firefox & Chrome Browsers",
+                "Mozilla Add-on Recommendation Board"
+            ]
+        },
+        "Publishing-related": [
+            "Easy to Publish Extensions!",
+            "Had Usability Problems with Publishing Platforms",
+            "Internal Product Versioning & Testing",
+            "Marketing Process & Considerations",
+            "Negative Impression of Publishing Process",
+            "Nominal Fee to Publish",
+            "Positive Impression of Publishing Process",
+            "Publishing Considerations",
+            "Publishing Experience",
+            "Publishing is a Serious Business",
+            "Publishing Patterns",
+            "Publishing Process",
+            "Second-hand Publishing Experience",
+            "Views on Target Audience",
+            "Web Store Fees",
+            "Why only AMO?",
+            "Why only CWS?"
+        ],
+        "Reviews-related": [
+            "Automated Detector Gone Wrong!",
+            "Differences in Review Process",
+            "Extension Takedown",
+            "False Review Alarms",
+            "Familiarity with Extension Takedowns",
+            "Fortunate with Review Process",
+            "Impact of Extension Takedown",
+            "Issues with Review Process",
+            "Merge Request Reviews",
+            "Need for Pre-approved Reviews",
+            "Never Contacted Web Stores",
+            "Phased-reviews could be better!",
+            "Prevalent Issue in the Community",
+            "Rejection Experience",
+            "Review Error Codes",
+            "Review Process is Inconsistent",
+            "Review process is sound",
+            "Review-based Changes",
+            "Review-based Comments",
+            "Reviewer Checks for Recommended Badge",
+            "Reviews are important for our customers!",
+            "The Review Process is an Afterthought!",
+            "Waiting times are non-negotiable!"
+        ],
+        "Roadblocks & Avenues to Improve": [
+            "Avenues to Improve",
+            "Call to Action for Developers",
+            "Current State",
+            "Lack of Incentive",
+            "Lack of Unified set of APIs",
+            "Roadblocks"
+        ],
+        "S&P-related": {
+            "Fingerprinting": [
+                "Curious to read about FIngerprinting!",
+                "Extension Fingerprinting",
+                "Extension Fingerprinting is IMPOSSIBLE!",
+                "Other Fingerprinting Techniques"
+            ],
+            "Permissions-related": [
+                "Optional Permissions Overhead",
+                "Permissions are broad",
+                "Permissions-related Comments"
+            ],
+            "Privacy Issues": [
+                "Awareness of Privacy Issues",
+                "Government Treaty and Requirements",
+                "Legal Regulations",
+                "Policy Violations",
+                "Privacy Concerns with Extensions",
+                "Privacy Issues with Extensions",
+                "Privacy-Sensitive Extension"
+            ],
+            "S&P Practices & Patterns": [
+                "Layered Security Approach",
+                "Premium version S&P Features",
+                "Responsibility of S&P Standards",
+                "S&P Audits",
+                "S&P Patterns",
+                "S&P Practices",
+                "S&P Resources",
+                "S&P Trainings",
+                "Web Security Concepts",
+                "Zero-Knowledge Structure"
+            ],
+            "Security Issues": [
+                "Attacker-controlled Extension Account",
+                "Awareness of Security Issues",
+                "Chrome Vulnerability",
+                "Example Threats",
+                "Loading third-party Scripts",
+                "Malicious Extensions/Developers",
+                "Potential S&P Problem",
+                "S&P-related Concerns",
+                "Same Namespace Attacks",
+                "Script Injection Issues",
+                "Security Issues with Extensions",
+                "Security-Sensitive Extension",
+                "Spam Emails",
+                "Third-party Emails to Developers"
+            ],
+            "Users' Data & Regulations": [
+                "Alternatives to User Data Collection!",
+                "Data Processing and Storage Concerns",
+                "GDPR-related comments",
+                "Privacy Policies for Extensions",
+                "Privacy Policy Details",
+                "Transparency in Data Processing/Storage",
+                "User Data handled"
+            ],
+            "": [
+                    "Benign-but-Buggy Extensions",
+                    "Buy/Sell Extensions",
+                    "Continuous Evolution of Threats",
+                    "Current State of S&P",
+                    "Don't want to be known as Infection Vector!",
+                    "Extensions are not victims, only users are!",
+                    "Extensions can't be trusted!",
+                    "False Sense of S&P Awareness",
+                    "Hidden Chrome Extensions on Google Meet",
+                    "Isolated Extension Components",
+                    "Lack of S&P Awareness",
+                    "Lack of S&P Exploits",
+                    "Malicious Websites",
+                    "No security issues in Firefox",
+                    "Not a S&P Problem",
+                    "Personal Experience with Malicious Extensions",
+                    "S&P-aware Alternatives",
+                    "S&P-related Comments",
+                    "Second-hand Knowledge on S&P Threats",
+                    "Security Team within Organization",
+                    "Security Theatre",
+                    "Security vs Usability",
+                    "Trust and Safety Factors",
+                    "Unclear Explanation",
+                    "Web Breakage"
+            ]
+        },
+        "Updates-related": [
+            "Issues-related to Updates",
+            "Non-extension Updates",
+            "Update Patterns",
+            "Rollout Pattern",
+            "Update Examples",
+            "User informed about Updates"
+        ],
+        "User-directed Actions/Responsibilities": [
+            "Permissions-related Info",
+            "On-boarding & Education",
+            "Requests",
+            "Satisfaction",
+            "User-related Comments",
+            "S&P Concerns/Requests",
+            "S&P Responsiblity"
+        ]
+    }
+}
