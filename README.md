@@ -17,4 +17,4 @@ We open source all the artifacts associated with the study, as underlined in the
     * [additional](./extension_coding_tasks/additional/) - This contains the optional coding test (CT3) that only two particpants opted to work on, as detailed in Appendix A in the [supplementary-material.pdf](./supplementary-material.pdf).
 
 ## LICENSING
-This repository is licensed under the GNU Affero General Public License 3.0 as indicated in the ``LICENSE`` file included with the repository and at the top of each of the source code files.
+This repository is licensed under the GNU Affero General Public License 3.0 as indicated in the [LICENSE](./LICENSE) file included with the repository and at the top of each of the source code files.

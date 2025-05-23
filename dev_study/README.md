@@ -1,13 +1,15 @@
-# Prototype E-Commerce Application Deployment
+## _I have no idea how to make it safer_: Studying Security and Privacy Mindsets of Browser Extension Developers
+
+### Prototype E-Commerce Application Deployment
 
 We outline the set of steps required to deploy the e-commerce Web application located in the `dev_study` directory using Docker Compose. We used this _protoype_ application, as is, to enable our study participants to work on browser extensions-related coding tasks during the interview.
 
-## Prerequisites
+### Prerequisites
 
 - [Docker](https://docs.docker.com/get-docker/) installed on your system.
 - [Docker Compose](https://docs.docker.com/compose/install/) (v2 or later).
 
-## Directory Structure
+### Directory Structure
 
 The `dev_study` directory contains:
 
@@ -17,7 +19,7 @@ The `dev_study` directory contains:
 - `cert/` – SSL certificates for HTTPS.
 - Other supporting files and directories.
 
-## Deployment Steps
+### Deployment Steps
 
 1. **Navigate to the `dev_study` directory:**
 
@@ -52,14 +54,14 @@ The `dev_study` directory contains:
     docker compose down
     ```
 
-## Notes
+### Notes
 
 - The application uses HTTPS by default, with self-signed certificates located in the `cert/` directory.
 - The Django app runs with Gunicorn as the WSGI server.
 - Nginx acts as a reverse proxy in front of the Django app.
 - Static files are served by Nginx.
 
-## Troubleshooting
+### Troubleshooting
 
 - If you encounter permission issues, try running Docker commands with `sudo`.
 - For logs, use:
@@ -74,7 +76,7 @@ The `dev_study` directory contains:
     docker compose --build up -d
     ```
 
-## Additional Information
+### Additional Information
 
 - For questions or issues, please create an issue or contact us at: shubham.agarwal@cispa.de.
 
