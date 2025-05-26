@@ -42,8 +42,3 @@ window.onload = function () {
         });
     }
 }
-
-function changeForm(newAction) {
-    var form = document.getElementById('loginRegistration');
-    form.action = newAction;
-}

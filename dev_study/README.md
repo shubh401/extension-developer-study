@@ -42,9 +42,9 @@ The `dev_study` directory contains:
     - The `-d` flag runs containers in detached mode.
 
 3. **Access the Application:**
-
     - By default, the application will be available at [https://localhost:9000](https://localhost:9000) or [https://127.0.0.1:9000](https://127.0.0.1:9000).
     - If you are running on a remote server, replace `localhost` with your server's IP or domain. Additionally, you will aslo need to forward the remote port (9000) to your local machine.
+    - The default credentials to log into the applications are: **Username**: ``foo``, **Password**: ``bar``.
 
 4. **Stopping the Application:**
 
