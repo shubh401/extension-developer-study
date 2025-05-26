@@ -1,10 +1,12 @@
 Dear <USERNAME>,
 
-<REDACTED SELF-INTRODUCTION>. In our current research project, we investigate the developers’ perspective and approach towards browser extension development. Our goal is to identify, highlight and help resolve any issues or roadblocks that developers may face during extension development and publishing.
+We are researchers from Saarland University & CISPA, Saarbrucken, Germany. I am a Computer Science PhD student and my research focuses on identifying issues related to application development and maintenance on the Web and providing appropriate countermeasures, wherever possible. In our current research project, we investigate the developers’ perspective and approach towards browser extension development. Our goal is to identify, highlight and help resolve any issues or roadblocks that developers may face during extension development and publishing.
+
+In our current research project, we investigate the developers’ perspective and approach towards browser extension development. Our goal is to identify, highlight and help resolve any issues or roadblocks that developers may face during extension development and publishing.
 
 We recently came across <N> of your browser extensions (<EXTENSION 1>, <EXTENSION 2>, etc...) hosted on the <EXTENSION STORE>. As part of our study, we would like to learn more about your overall experiences when developing and maintaining browser extensions, in general.
 
-The study consist of two parts: We first invite interested participants to fill up a short-screening questionnaire (approximately 2 – 3 minutes). We will, then, shortlist from the set of interested candidates and invite them for direct interview. The direct interview will be conducted in English and take approximately 120 minutes and we will compensate your participation in this study with an Amazon Voucher worth of <COMPENSATION AMOUNT> (or its equivalent) once the interview is completed.
+The study consist of two parts: We first invite interested participants to fill up a short-screening questionnaire (approximately 2 – 3 minutes). We will, then, shortlist from the set of interested candidates and invite them for direct interview. The direct interview will be conducted in English and take approximately 120 minutes and we will compensate your participation in this study with an Amazon Voucher worth of 50 USD (or its equivalent) once the interview is completed.
 
 We would, thus, ask you or any of your colleagues associated with the design, development or maintenance of your extensions to participate in our study, by filling the screening questionnaire here at: <REDACTED URL>.
 
@@ -12,4 +14,6 @@ Please write back to us in case of any further questions, issues or information 
 
 Best Regards
 
-<SIGNATURE>
+Shubham Agarwal | Doctoral Researcher
+Saarland University & CISPA | Saarbrücken, DE - 66123
+Mail: shubham.agarwal@cispa.de, s8shagar@stud.uni-saarland.de
