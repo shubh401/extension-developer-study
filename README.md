@@ -10,11 +10,11 @@ We open source all the artifacts associated with the study, as underlined in the
 - [emails](./emails) - This directory includes the email and the recruitment details and information we provided to extension developers about our study before and after the interview:
     * [recruitment.txt](./emails/recruitment.txt) - The first email sent to all the 4K extension developers that we considered for our study.
     * [scheduling.txt](./emails/scheduling.txt) - The email sent to all the participants who signed up for our study and qualified as a potential candidate for our study.
-    * [instructions.txt](./emails/instructions.txt) - The information about the interview setup, timeline and data collection processes is shared with the particpants before the commencement of the interview.
-    * [post-interview-follow-up.txt](./emails/post-interview-follow-up.txt) - the email sent ot each particpant after completion of the interview to detila on their particpation compensation.
+    * [instructions.txt](./emails/instructions.txt) - The information about the interview setup, timeline and data collection processes is shared with the participants before the commencement of the interview.
+    * [post-interview-follow-up.txt](./emails/post-interview-follow-up.txt) - the email sent ot each participant after completion of the interview to detila on their participation compensation.
 - [extension_coding_tasks](./extension_coding_tasks) - This directory contains the original state of extensions and the detailed information that we share with our participants at the beginning of the coding tasks.
     * [primary](./extension_coding_tasks/primary/) - This directory consists of the artifacts for the mandatory coding tasks (CT1 & CT2), as detailed in §4.2 of the original paper. Please find more details about the extension within individual extension directories.
-    * [additional](./extension_coding_tasks/additional/) - This contains the optional coding test (CT3) that only two particpants opted to work on, as detailed in Appendix A in the [supplementary-material.pdf](./supplementary-material.pdf).
+    * [additional](./extension_coding_tasks/additional/) - This contains the optional coding test (CT3) that only two participants opted to work on, as detailed in Appendix A in the [supplementary-material.pdf](./supplementary-material.pdf).
 
 ## LICENSING
 This repository is licensed under the GNU Affero General Public License 3.0 as indicated in the [LICENSE](./LICENSE) file included with the repository and at the top of each of the source code files.

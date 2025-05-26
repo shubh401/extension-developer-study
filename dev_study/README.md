@@ -76,8 +76,6 @@ The `dev_study` directory contains:
     docker compose --build up -d
     ```
 
-### Additional Information
-
-- For questions or issues, please create an issue or contact us at: shubham.agarwal@cispa.de.
+For questions or issues, please create an issue or contact us at: shubham.agarwal@cispa.de.
 
 ---
