@@ -14,7 +14,7 @@ We open source all the artifacts associated with the study, as underlined in the
     * [post-interview-follow-up.txt](./emails/post-interview-follow-up.txt) - the email sent ot each participant after completion of the interview to detila on their participation compensation.
 - [extension_coding_tasks](./extension_coding_tasks) - This directory contains the original state of extensions and the detailed information that we share with our participants at the beginning of the coding tasks.
     * [primary](./extension_coding_tasks/primary/) - This directory consists of the artifacts for the mandatory coding tasks (CT1 & CT2), as detailed in §4.2 of the original paper. Please find more details about the extension within individual extension directories.
-    * [additional](./extension_coding_tasks/additional/) - This contains the optional coding test (CT3) that only two participants opted to work on, as detailed in Appendix A in the [supplement-material.pdf](./supplement-material.pdf).
+    * [additional](./extension_coding_tasks/additional/) - This contains the optional coding test (CT3) that only two participants opted to work on, as detailed in Appendix A in the [supplementary-material.pdf](./supplementary-material.pdf).
 
 ## LICENSING
 This repository is licensed under the GNU Affero General Public License 3.0 as indicated in the [LICENSE](./LICENSE) file included with the repository and at the top of each of the source code files.
