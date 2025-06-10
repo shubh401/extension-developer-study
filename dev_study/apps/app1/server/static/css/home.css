@@ -1,0 +1,96 @@
+/*Copyright (C) 2025 Shubham Agarwal
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
+#bannerCarousel .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Style the carousel captions */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.carousel-caption h5 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    color: #ddd;
+    font-size: 1rem;
+}
+
+.category-card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    /* Ensures card takes full height of the column */
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+.category-img {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    width: 90%;
+    height: auto;
+    max-height: 250px;
+    object-fit: scale-down;
+}
+
+.category-body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.category-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.category-description {
+    color: #6c757d;
+    margin: 10px 0;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #232f3e;
+}
+.content-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+.highlight {
+    font-weight: bold;
+    color: #007bff;
+}

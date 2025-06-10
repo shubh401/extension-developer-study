@@ -1,0 +1,5 @@
+[
+    {"image_url": "static/img/items/banner1.jpg", "title": "Highlights of the Week", "description": "Top 10 voted books of the week."},
+    {"image_url": "static/img/items/banner2.jpeg", "title": "Free Delivery!!!", "description": "We deliver your favorite books at your doorstep for free."},
+    {"image_url": "static/img/items/banner3.webp", "title": "Buy More, Save More! Hurry!", "description": "Extra 20% off on selected items."}
+]
